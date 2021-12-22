@@ -75,8 +75,7 @@ end
 	["method-definition", [
 		["function", "grow_by"]
 	]],
-	" factor",
-	["operator", ":"],
+	["symbol", "factor:"],
 
 	["variable", "@radius"],
 	["operator", "="],

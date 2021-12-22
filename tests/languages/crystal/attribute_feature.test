@@ -28,14 +28,12 @@
 		["attribute", "MyAnnotation"],
 		["args", [
 			["punctuation", "("],
-			["symbol", "key"],
-			["operator", ":"],
+			["symbol", "key:"],
 			["string-literal", [
 				["string", "\"value\""]
 			]],
 			["punctuation", ","],
-			["symbol", "value"],
-			["operator", ":"],
+			["symbol", "value:"],
 			["number", "123"],
 			["punctuation", ")"]
 		]],

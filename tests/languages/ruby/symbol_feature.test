@@ -16,6 +16,11 @@
 { :one => "eins", :two => "zwei", :three => "drei" }
 { one: "eins", two: "zwei", three: "drei" }
 
+# keyword agruments
+
+method_name(one: "eins", two: "zwei")
+method_name one: "eins", two: "zwei"
+
 ----------------------------------------------------
 
 [
@@ -55,24 +60,47 @@
 	["punctuation", "}"],
 
 	["punctuation", "{"],
-	["symbol", "one"],
-	["operator", ":"],
+	["symbol", "one:"],
 	["string-literal", [
 		["string", "\"eins\""]
 	]],
 	["punctuation", ","],
-	["symbol", "two"],
-	["operator", ":"],
+	["symbol", "two:"],
 	["string-literal", [
 		["string", "\"zwei\""]
 	]],
 	["punctuation", ","],
-	["symbol", "three"],
-	["operator", ":"],
+	["symbol", "three:"],
 	["string-literal", [
 		["string", "\"drei\""]
 	]],
-	["punctuation", "}"]
+	["punctuation", "}"],
+
+	["comment", "# keyword agruments"],
+
+	"\r\n\r\nmethod_name",
+	["punctuation", "("],
+	["symbol", "one:"],
+	["string-literal", [
+		["string", "\"eins\""]
+	]],
+	["punctuation", ","],
+	["symbol", "two:"],
+	["string-literal", [
+		["string", "\"zwei\""]
+	]],
+	["punctuation", ")"],
+
+	"\r\nmethod_name ",
+	["symbol", "one:"],
+	["string-literal", [
+		["string", "\"eins\""]
+	]],
+	["punctuation", ","],
+	["symbol", "two:"],
+	["string-literal", [
+		["string", "\"zwei\""]
+	]]
 ]
 
 ----------------------------------------------------
