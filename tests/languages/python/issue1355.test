@@ -4,11 +4,11 @@ print('"trigger="#T'+str(3))
 ----------------------------------------------------
 
 [
-	["keyword", "print"],
+	["builtin", "print"],
 	["punctuation", "("],
 	["string", "'\"\"#'"],
 	["punctuation", ")"],
-	["keyword", "print"],
+	["builtin", "print"],
 	["punctuation", "("],
 	["string", "'\"trigger=\"#T'"],
 	["operator", "+"],

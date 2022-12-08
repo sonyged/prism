@@ -12,7 +12,7 @@ int intern isinstance issubclass
 iter len list locals
 long map max memoryview
 min next object oct
-open ord pow property
+open ord pow print property
 range raw_input reduce reload
 repr reversed round set
 setattr slice sorted staticmethod
@@ -40,7 +40,7 @@ __import__
 	["builtin", "iter"], ["builtin", "len"], ["builtin", "list"], ["builtin", "locals"],
 	["builtin", "long"], ["builtin", "map"], ["builtin", "max"], ["builtin", "memoryview"],
 	["builtin", "min"], ["builtin", "next"], ["builtin", "object"], ["builtin", "oct"],
-	["builtin", "open"], ["builtin", "ord"], ["builtin", "pow"], ["builtin", "property"],
+	["builtin", "open"], ["builtin", "ord"], ["builtin", "pow"], ["builtin", "print"], ["builtin", "property"],
 	["builtin", "range"], ["builtin", "raw_input"], ["builtin", "reduce"], ["builtin", "reload"],
 	["builtin", "repr"], ["builtin", "reversed"], ["builtin", "round"], ["builtin", "set"],
 	["builtin", "setattr"], ["builtin", "slice"], ["builtin", "sorted"], ["builtin", "staticmethod"],
